@@ -10,6 +10,10 @@ public class Player1Controller : MonoBehaviour {
 		Move();
 	}
 
+	void ChargeLaunch() {
+
+	}
+
 	public void Move() 
 	{
         float transVert = Input.GetAxis("Vertical") * speed * Time.deltaTime;
